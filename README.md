@@ -1,22 +1,33 @@
-# \# Cash Withdrawal Note Calculator (C)
+# \# ATM Cash Withdrawal Note Calculator
 
 # 
 
-# A simple C program that calculates the number of currency notes required for a given withdrawal amount using the denominations:
+# \## Description
 
 # 
 
-# \* 5000
-
-# \* 1000
-
-# \* 500
-
-# \* 100
+# This C program calculates the minimum number of currency notes required for a given withdrawal amount.
 
 # 
 
-# The program breaks down the entered amount into the minimum number of notes using a greedy approach.
+# The program breaks down the entered amount into:
+
+# 
+
+# \* 5000 notes
+
+# \* 1000 notes
+
+# \* 500 notes
+
+# \* 100 notes
+
+# 
+
+# using integer division and remainder calculations.
+
+# 
+
 
 # 
 
@@ -26,11 +37,15 @@
 
 # \* Accepts a withdrawal amount from the user.
 
-# \* Calculates the number of notes for each denomination.
 
-# \* Displays a formatted summary table.
+# \* Calculates the number of notes needed for each denomination.
 
-# \* Easy to understand and suitable for C programming beginners.
+# \* Displays the note breakdown in a formatted table.
+
+# \* Uses the largest denominations first to minimize the total number of notes.
+
+# 
+
 
 # 
 
@@ -76,10 +91,10 @@
 
 # 
 
+
 # \## How It Works
 
 # 
-
 # The program:
 
 # 
@@ -92,7 +107,5 @@
 
 # 4\. Displays the final note count.
 
-# 
 
-# 
 
